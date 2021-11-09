@@ -9,17 +9,17 @@ let x;
 
 for (let i = 1; i <= 50; i++) {
     if(i % 15 == 0){
-          x = 'fizzbuzz';
-    } else if (i % 3 == 0){
-          x = 'fizz';
-    } else if(i % 5 == 0){
-          x = 'buzz';
+        x = 'fizzbuzz';        
+    }else if(i % 3 == 0){
+        x = 'fizz';
+    }else if(i % 5 == 0){
+        x = 'buzz';
     }else{
         x = i;
     }
 
-
-ul.innerHTML += `<li class="box box--${i}">${x}</li>`;
+// =============output 
+ul.innerHTML += `<li class="box ${x}">${x}</li>`;
 console.log(x);
 }
 

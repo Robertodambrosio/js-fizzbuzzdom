@@ -1,7 +1,42 @@
-.bg1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.box {
+    padding: 30px;
+    margin: 10px;
+    background-color: purple;
+}
+
+.buzz {
     background-color: red;
 }
 
-.bg2 {
+.fizz {
     background-color: blue;
+}
+
+.fizzbuzz {
+    background-color: green;
 }
